@@ -1,0 +1,24 @@
+﻿<html>
+
+<head>
+    <script TYPE="text/javascript">
+        function ver(valor) {
+            var nume = parseInt(valor);
+            var i = 1;
+            while (i <= 12) {
+                document.write(i + '*' + nume + "=" + i * nume + "<br>");
+                i++;
+            }
+        }
+    </script>
+
+
+</head>
+
+<body>
+    Número: <input type="text" id="num" size="3">
+    <p></p>
+    <input type="button" value="Mostrar tabla de multiplicar" onclick=ver(num.value)>
+</body>
+
+</html>

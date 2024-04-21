@@ -1,0 +1,26 @@
+﻿<html>
+
+<head>
+    <script TYPE="text/javascript">
+        function ver() {
+            var edad = parseInt(cedad.value);
+
+            if (edad < 18)
+                alert("No tienes acceso\n Debes tener 18 o más");
+            else {
+                alert("Bienvenido a la pagina");
+                window.open("https://ucontinental.edu.pe/");
+            }
+        }
+    </script>
+
+    <title>Ejemplo if</title>
+</head>
+
+<body>
+    Edad: <input type="text" id="cedad" size="3">
+    <p></p>
+    <input type="button" value="Verificar acceso" onclick=ver()>
+</body>
+
+</html>
